@@ -1,0 +1,279 @@
+body{
+  background-color: #000000;
+  color: #F5F5F5;
+}
+
+#header{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#header video{
+  position: inherit;
+  min-width: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+#header h2{
+  position: absolute;
+  text-align: left;
+  text-transform: full-width;
+  font-family: "Montserrat", Helvetica, Verdana, sans-serif;
+  font-size: 3.5em;
+  color: #E0E0E0;
+  top: 0.5%;
+  left: 1%;
+
+}
+
+#header p{
+  position: absolute;
+  text-align: center;
+  text-transform: full-width;
+  font-family: "Montserrat", Helvetica, Verdana, sans-serif;
+  font-size: 1em;
+  z-index: 9999;
+  color: #000000;
+  top: 15%;
+  left: 3%;
+
+}
+
+#underhead h2{
+  position: absolute;
+  text-align: center;
+  text-transform: full-width;
+  font-family: "Montserrat", Helvetica, Verdana, sans-serif;
+  font-size: 1em;
+  z-index: 9999;
+  color: #000000;
+
+}
+
+#underhead h3{
+  position: absolute;
+  text-align: center;
+  text-transform: full-width;
+  font-family:"Montserrat", Helvetica, Verdana, sans-serif;
+  font-size: 1em;
+  z-index: 9999;
+  color: #000000;
+  top: 59%;
+  left: 50%;
+  transform: translate(-50% , 1em);
+}
+
+#underhead p{
+  position: absolute;
+  text-align: center;
+  text-transform: full-width;
+  font-family: "Montserrat", Helvetica, Verdana, sans-serif;
+  font-size: 1.2em;
+  z-index: 9999;
+  color: #ffffff;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50% , 50%);
+}
+
+#intro {
+  padding: 10em 10em 10em 10em;
+  margin-top: 1em;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  text-align: center;
+}
+
+#intro h2{
+  font-family: "Montserrat", "Source Sans Pro", Helvetica, sans-serif;
+  color: #000000;
+}
+
+#intro p{
+  font-family: "Montserrat", "Source Sans Pro", Helvetica, sans-serif;
+  color: #000000;
+}
+
+#wrapper {
+	width: 64em;
+	margin: 0 auto;
+	max-width: calc(100% - 4em);
+	padding: 4em 0 2em 0;
+}
+
+#wrapper > .main {
+  margin-bottom: 4em;
+}
+
+#boxx {
+  padding: 5em 5em 5em 5em;
+  margin-top: 1em;
+  margin-left: 10em;
+  margin-right: 10em;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  text-align: center;
+}
+
+#boxx a{
+  font-size: 0.8em;
+}
+
+input[type="button"],
+	button,
+	.button {
+		border-radius: 2px;
+		border: 0;
+		cursor: pointer;
+		display: inline-block;
+		font-weight: 300;
+		height: 2.85rem;
+		line-height: 2.95rem;
+		padding: 0 1.5rem;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		white-space: nowrap;
+    font-family: Helvetica, Verdana, sans-serif;
+    color: #000000;
+	}
+
+input[type="button"].alt,
+	button.alt,
+	.button.alt {
+		background-color: transparent;
+		box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
+		color: #ff0000 !important;
+  }
+
+#book h2{
+  font-family:  Helvetica, Verdana, sans-serif;
+  color: #000000;
+}
+
+/*gambar*/
+.kotak {
+	padding: 2px;
+  margin:3em 1em 3em 1em;
+	background-color: #2f333b;
+	text-align: left;
+  font-family: Helvetica, Verdana, sans-serif;
+  font-size: 5px;
+}
+
+.items {
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0;
+}
+
+.items .kotak {
+	margin:3em 1em 3em 1em;
+	width: calc(33% - 2em);
+}
+
+.kotak footer{
+  position: absolute;
+  text-align: center;
+  text-transform: full-width;
+  font-family: Helvetica, Verdana, sans-serif;
+  font-size: 3em;
+  z-index: 9999;
+  color: #000000;
+}
+
+.align-center {
+	text-align: center;
+}
+
+/* punya promotion*/
+#header img{
+  position: inherit;
+  width: 100%;
+  height: 30%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+#KOO {
+  padding: 2em 2em 2em 2em;
+  margin-top: 1em;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  text-align: center;
+}
+#KOO h1, h2, h3{
+  font-family: "Montserrat", "Source Sans Pro", Helvetica, sans-serif;
+  color: #000000;
+}
+#KOO p{
+  font-family: "Montserrat", "Source Sans Pro", Helvetica, sans-serif;
+  color: #000000;
+}
+
+#header a{
+  position: absolute;
+  text-align: center;
+  text-transform: full-width;
+  font-family: Helvetica, Verdana, sans-serif;
+  font-size: 1em;
+  z-index: 9999;
+  color: #ff0000;
+  top: 0em;
+  left: 4em;
+  transform: translate(-50% , 50%);
+}
+
+/*form*/
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 1em;
+}
+label{
+  color: #000000;
+}
+
+textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
